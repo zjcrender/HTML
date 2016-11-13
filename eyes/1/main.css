@@ -1,0 +1,32 @@
+*{margin:0;}
+
+div{border-radius: 50%;}
+
+.face{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    position: relative;
+    margin: 20px;
+    float: left;
+}
+
+.eye{
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    position: absolute;
+    top:40px;
+
+}
+
+.eye_left{left: 25px;}
+.eye_right{right: 25px;}
+
+#text{
+    width: 200px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 0;
+    float: left;
+}
