@@ -1,0 +1,27 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#header{
+  /*min-height: 100px;*/
+}
+
+#mapContent{
+  min-height: 600px;
+}
+#getDistance{
+  float: right;
+}
+
+#plan{
+ width: 50%;
+  float: left;
+  margin-right: 10px ;
+}
+#myLocation{
+  float: right;
+}

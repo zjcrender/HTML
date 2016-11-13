@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baiduMap</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <!--<script src="../node_modules/jquery/dist/jquery.min.js"></script>-->
+    <!--<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
+</head>
+<body>
+
+<div class="container">
+    <div class="row" id="header">
+        <div class="col-xs-3">
+            <select id="plan" class="form-control">
+                <option value="0">步行</option>
+                <option value="1">公交/地铁</option>
+                <option value="2">驾车</option>
+            </select>
+            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" id="getRol">查询</button>
+        </div>
+        <div class="col-xs-5">
+            <div class="input-group">
+                <span class="input-group-addon" ><span class="glyphicon glyphicon-search "></span></span>
+                <input type="text" class="form-control" placeholder="搜索内容" id="suggestId">
+            </div>
+        </div>
+        <div class="col-xs-2">
+            <button type="button" class="btn btn-warning" data-toggle="button" aria-pressed="false" autocomplete="off" id="getDistance">
+                <span class="glyphicon glyphicon-resize-full"></span>
+                测量距离
+            </button>
+        </div>
+        <div class="col-xs-2">
+            <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off" id="myLocation">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                获取当前位置
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12" id="mapContent" style="height: 100%"></div>
+    </div>
+    <div class="row" id="resultBox"></div>
+</div>
+
+
+<script src="javascripts/main.js"></script>
+</body>
+</html>
