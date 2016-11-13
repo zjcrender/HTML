@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画图</title>
+    <style>
+        #clear{
+            width: 100px;
+            height: 30px;
+            background-color: #6be;
+            color:#fff;
+            border-radius: 20px;
+            text-align: center;
+            line-height: 30px;
+            cursor: pointer;
+        }
+        canvas{
+            border:1px solid #000;
+        }
+        #view{
+            float: left;
+            width: 30px;
+            height: 30px;
+            margin: 0  60px;
+            background-color: #6be;
+        }
+    </style>
+    <script src="../../../../yj/admin/js/global.js"></script>
+</head>
+<body>
+
+<canvas width="400" height="400" id="canvas"></canvas>
+<br/><br/>
+<div id="view"></div>
+<input id="clear" type="button" value="清除画布">
+<br/><br/><br/><br/>
+<input type="range" min="0" max="255" class="range">
+<input type="range" min="0" max="255" class="range">
+<input type="range" min="0" max="255" class="range">
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
