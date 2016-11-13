@@ -1,0 +1,506 @@
+html, body {
+    position: relative;
+    height: 100%;
+    font-family: "微软雅黑", "Microsoft YaHei", Helvetica, "STHeiti STXihei", "Microsoft JhengHei", Tohoma, Arial;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.s1-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(62, 136, 241);
+}
+
+.indexTxt {
+    position: relative;
+    z-index: 9;
+    margin: 15% 0 10%;
+}
+
+.indexTxt img:nth-child(1) {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.indexTxt img:nth-child(2) {
+    position: absolute;
+    left: 64px;
+    top: 16px;
+}
+
+.indexTxt img:nth-child(3) {
+    position: absolute;
+    right: 140px;
+    top: 130px;
+}
+
+.index-flight {
+    position: relative;
+    z-index: 9;
+}
+
+.index-element {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.index-cloud {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+}
+
+.index-stars {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.index-building {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+.up-arrow {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 75px;
+    height: 70px;
+}
+
+.s2 {
+    background-color: #000;
+}
+
+.s2-bg {
+    position: absolute;
+    bottom: 0;
+}
+
+.s2-text {
+    position: absolute;
+    top: 450px;
+}
+
+.s2-text img {
+    display: block;
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+
+.s2-star {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin: auto;
+}
+
+.s5 {
+    background: url("images/aboutBg.jpg") bottom;
+}
+
+.s5-football {
+    position: absolute;
+    top: 230px;
+    right: 40px;
+}
+
+.s6 {
+    background-color: rgb(132, 117, 114);
+}
+
+.s6-run {
+    position: absolute;
+    top: 160px;
+    left: 95px;
+}
+
+.s-text {
+    position: absolute;
+    width: 100%;
+    top: 600px;
+}
+
+.s-text img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.s7 {
+    background-color: rgb(74, 221, 157);
+}
+
+.s7-top {
+    position: relative;
+    top: 30px;
+}
+
+.s7-man {
+    position: absolute;
+    top: 70px;
+    left: 130px;
+}
+
+.s7-text {
+    top: 690px;
+}
+
+.s8 {
+    background-color: rgb(181, 239, 253);
+}
+
+.s8-text {
+    position: absolute;
+    top: 120px;
+    background: #fc5955;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 15px;
+    height: 70%;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.s8-text-inner {
+    background: #ef3d38;
+    padding: 80px 20px 150px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 150%;
+    height: 67%;
+}
+
+.s8-text-inner p {
+    margin: 0;
+    text-indent: 2em;
+    text-align: left;
+}
+
+.s8-flower {
+    position: absolute;
+    top: 54px;
+    left: 20px;
+}
+
+.s8-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    margin: auto;
+    z-index: 10;
+}
+
+.s8-cloud {
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    z-index: 10;
+}
+
+.s8-man {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.s8-star {
+    position: absolute;
+    z-index: 10;
+    bottom: 200px;
+    right: 200px;
+}
+
+.s9 {
+    background-color: rgb(62, 136, 241);
+}
+
+.s9-bg {
+    width: 100%;
+    height: 100%;
+}
+
+.s9 > div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.s9-logo {
+    top: 100px;
+}
+
+.s9-text {
+    top: 220px;
+}
+
+.s9-mail {
+    top: 380px;
+}
+
+.s9-click {
+    top: 500px;
+}
+
+.s9-plane {
+    top: 570px;
+}
+
+.s9-bottomText {
+    bottom: 20px;
+}
+
+.s9-cloud {
+    top: 120px;
+}
+
+.s3 {
+    background: rgb(1, 23, 44);
+}
+
+.s3-state1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.s3-state2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.s3-state3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.s3-bg1 {
+    position: relative;
+}
+
+.s3-bd1 {
+    position: absolute;
+    top: 220px;
+    right: 0;
+}
+
+.s3-tit1 {
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.s3-station2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.s3-bus2 {
+    position: absolute;
+    bottom: 56px;
+    left: 0;
+}
+
+.s3-man2 {
+    position: absolute;
+    bottom: 90px;
+    right: 0px;
+}
+
+.s3-tit2 {
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.s3-bg3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.s3-wall3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.s3-man3 {
+    position: absolute;
+    right: 40px;
+    top: 312px;
+}
+
+.s3-text {
+    position: absolute;
+    top: 340px;
+    left: 100px;
+}
+
+.s3-text01 {
+    position: absolute;
+    top: 390px;
+    left: 100px;
+}
+
+.s3-text02 {
+    position: absolute;
+    top: 460px;
+    left: 100px;
+}
+
+.s3-text03 {
+    position: absolute;
+    top: 530px;
+    left: 100px;
+}
+
+.s3-text04 {
+    position: absolute;
+    bottom: 130px;
+    right: 180px;
+}
+
+.s4 {
+    background-color: rgb(48, 46, 92);
+}
+
+.s4-state1 {
+    background-color: rgb(48, 46, 92);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.s4-bg1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.s4-wall {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.s4-lightOff {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    z-index: 10;
+}
+
+.s4-tit {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.s4-text {
+    position: absolute;
+    right: 150px;
+    top: 320px;
+}
+
+.s4-state2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.s4-bg2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.s4-flower2 {
+    position: absolute;
+    bottom: -10px;
+    right: 30px;
+}
+
+.s4-tit2 {
+    position: absolute;
+    top: 280px;
+    left: 200px;
+}
+
+.btn {
+    position: fixed;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    background-image: url("images/musicBtn.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#mask .message {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 30% auto 0;
+}
