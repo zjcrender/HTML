@@ -1,0 +1,40 @@
+#container{
+    position: absolute;
+    top: 0;  bottom: 0;  right: 0;  left: 0;
+    margin: auto;
+    width: 780px;
+    height: 330px;
+}
+.content{
+    float: left;
+    position: relative;
+    height: 330px;
+    width: 26px;
+    list-style: none;
+    transform-origin: 13px 165px -165px ;
+    transform-style: preserve-3d;
+    transition:all 0.4s ease-out;
+}
+.content>div{
+    position: absolute;
+    height: 330px;
+    width: 26px;
+    transform-origin: 13px 165px -165px ;
+}
+#tab{
+    position: absolute;
+    display: flex;
+    top: 600px;  left: 0;  right: 0;
+    margin: auto;
+    width: 300px;
+    height: 20px;
+    justify-content: space-around;
+}
+#tab a{
+    text-decoration: none;
+    color: black;
+}
+#tab span{
+    padding: 0 5px;
+    cursor: pointer;
+}
