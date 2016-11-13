@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 0;right:0;top:0;bottom:0;
+            margin: auto;
+            transform-style: preserve-3d;
+            transform-origin: 50px 50px -50px;
+            animation: turn 8s infinite linear;
+        }
+        #container .d{
+            position: absolute;
+            line-height: 100px;
+            text-align: center;
+            font-size: 40px;
+            width: 100px;
+            height: 100px;
+            transform-origin: 50px 50px -50px;
+            opacity: 0.95;
+        }
+        #container .c{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            transform-origin: 100px 100px 0px;
+        }
+
+        .c1{ transform: translateZ(-50px) rotateY(-90deg); border: 1px solid #f2b6b6;}
+        .c2{ transform: translateZ(-50px) rotateX(90deg);border: 1px solid #f29f3f;}
+        .c3{ transform: translateZ(-50px); border: 1px solid #bdb76a; }
+
+        .d1{  transform: rotateX(-90deg);  background: #6be;}
+        .d2{  transform: rotateY(90deg); background: #ffe957; }
+        .d3{  transform: rotateY(180deg);  background: #61ff69;}
+        .d4{  transform: rotateY(0deg);  background: #61ff69;}
+        .d5{  transform: rotateY(270deg);   background: #ffe957;}
+        .d6{  transform: rotateX(90deg);  background: #6be; }
+
+        @keyframes turn {
+            from{ transform: rotate3d(1,1,1,0deg) ;}
+            to{ transform: rotate3d(1,1,1,360deg);}
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="c c1"></div>
+    <div class="c c2"></div>
+    <div class="c c3"></div>
+    <div class="d d1">1</div>
+    <div class="d d2">2</div>
+    <div class="d d3">3</div>
+    <div class="d d4">4</div>
+    <div class="d d5">5</div>
+    <div class="d d6">6</div>
+</div>
+</body>
+</html>
