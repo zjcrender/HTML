@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container{
+            width: 340px;
+            height: 510px;
+            position: absolute;
+            left: 0;right:0;top:0;bottom:0;
+            margin: auto;
+            transform-style: preserve-3d;
+            transform-origin: 170px 255px -294.44px;
+            animation: turn 8s infinite linear;
+        }
+
+        img{
+            position: absolute;
+            transform-origin: 170px 0 -294.44px;
+            width: 340px;
+            height: 510px;
+            opacity: .95;
+        }
+        .p1{ transform: rotateY(300deg);  }
+        .p2{  transform: rotateY(0deg);  }
+        .p3{  transform: rotateY(60deg);  }
+        .p4{  transform: rotateY(120deg);  }
+        .p5{  transform: rotateY(180deg);  }
+        .p6{  transform: rotateY(240deg);  }
+
+        @keyframes turn {
+            from{ transform: rotate3d(1,1,1,0deg) ;}
+            to{ transform: rotate3d(1,1,1,360deg);}
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+        <img src="1.jpg" class="p1">
+        <img src="2.jpg" class="p2">
+        <img src="3.jpg" class="p3">
+        <img src="4.jpg" class="p4">
+        <img src="5.jpg" class="p5">
+        <img src="6.jpg" class="p6">
+</div>
+</body>
+</html>
