@@ -1,0 +1,28 @@
+#getIMG,#getVideo{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #6be;
+    color:#fff;
+}
+
+#getVideo{width: 100px;}
+
+
+#canvas{
+    position: absolute;
+}
+#canvasAvatar{
+    position: relative;
+    z-index: 999;
+}
+
+#head{
+    position: absolute;
+    background-color: #6be;
+    border-radius: 50%;
+}
