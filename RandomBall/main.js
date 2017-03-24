@@ -11,7 +11,7 @@
     function creatBall(Num) {
         for (var i=0;i<Num;i++) {
             var randomNum = Math.floor(Math.random()*ballColorLength);
-            var ball = new ucai.Ball(ballColor[randomNum]);
+            var ball = new REN.Ball(ballColor[randomNum]);
             document.body.appendChild(ball.getHtmlNode());
         }
     }
