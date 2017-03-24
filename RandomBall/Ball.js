@@ -1,8 +1,8 @@
 /**
- * Created by Administrator on 2016/8/23 0023.
+ * Created by Render on 2016/8/23 0023.
  */
 
-window.ucai = window.ucai || {};
+window.REN = window.REN || {};
 
 (function () {
 
@@ -55,6 +55,6 @@ window.ucai = window.ucai || {};
     }
 
 
-    ucai.Ball = Ball;
+    REN.Ball = Ball;
 
 })();
